@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>MuLan</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-3 publication-title">MuLan: Multimodal-LLM Agent for Progressive Multi-object Diffusion</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Sen Li</a>,</span>
+                <span class="author-block">
+                  <a href="https://ruocwang.github.io/" target="_blank">Ruochen Wang</a>,</span>
+                  <span class="author-block">
+                    <a href="https://web.cs.ucla.edu/~chohsieh/" target="_blank">Cho-Jui Hsieh</a>,</span>
+                    <span class="author-block">
+                      <a href="https://cmhcbb.github.io/" target="_blank">Minhao Cheng</a>,</span>
+                      <span class="author-block">
+                        <a href="https://tianyizhou.github.io/" target="_blank">Tianyi Zhou</a></span>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <strong><span style="font-size: 1.5em; color: crimson;">A</span></strong>IGC
+                      <strong><span style="font-size: 1.5em; color: crimson;">R</span></strong>esearch
+                      <strong><span style="font-size: 1.5em; color: crimson;">C</span></strong>ollaboration<br>
+                        HKUST - UCLA - PSU - UMD</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <source src="static/videos/banner_video.mp4"
+        type="video/mp4">
+      </video>
+      <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2>
+    </div>
+  </div>
+</section> -->
+<!-- End teaser video -->
+
+
+
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <div class="content has-text-justified">
+      <p>
+        We propose a training-free controllable text-to-image (T2I) generation framework named MuLan utilizing powerful multimodal LLM. MuLan takes full control over the generation process by progressively generating the objects. During the generation, MuLan also allows adaptive self-correction due to the closed-loop feedback provided by multimodal LLM. Moreover, MuLan does not require in-context learning to prompt multimodal LLM.
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <div class="content has-text-justified">
+      <p>
+        <b>GIF illustration here.</b>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<img src="images/illustration.png" alt="MY ALT TEXT"/>
+  <h2 class="subtitle has-text-centered">
+    Illustration of the framework.
+  </h2>
+  
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-three-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Existing text-to-image models still struggle to generate images of multiple objects, especially in handling their spatial positions, relative sizes, overlapping, and attribute bindings. In this paper, we develop a training-free <b>Mu</b>ltimodal-<b>L</b>LM <b>a</b>ge<b>n</b>t (MuLan) to address these challenges by progressive multi-object generation with planning and feedback control, like a human painter. MuLan harnesses a large language model (LLM) to decompose a prompt to a sequence of sub-tasks, each generating only one object conditioned on previously generated objects by stable diffusion. Unlike existing LLM-grounded methods, MuLan only produces a high-level plan at the beginning while the exact size and location of each object are determined by an LLM and attention guidance upon each sub-task. Moreover, MuLan adopts a vision-language model (VLM) to provide feedback to the image generated in each sub-task and control the diffusion model to re-generate the image if it violates the original prompt. Hence, each model in every step of MuLan only needs to address an easy sub-task it is specialized for. We collect 200 prompts containing multi-objects with spatial relationships and attribute bindings from different benchmarks to evaluate MuLan. The results demonstrate the superiority of MuLan in generating multiple objects over baselines.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- MuLan -->
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <h2 class="title is-3">MuLan</h2>
+    <div class="content has-text-justified">
+      <p>
+        The intuition behind MuLan is, one can imagine that if a human painter wants to create an artwork, he/she will first make a high-level plan, then paint objects one after another following the planning, and also correct possible mistakes after each painting stage. This is actually how MuLan works. Below is the complete framework with an example.
+      </p>
+    </div>
+
+    <img src="images/framework.png" alt="MY ALT TEXT"/>
+      <p>
+        <h2 class="subtitle has-text-centered">
+          The proposed training-free Multimodal-LLM Agent (MuLan) for Progressive Multi-Object Diffusion. MuLan consists of three main components: (1) LLM planning; (2) Single-object diffusion with attention guidance; and (3) VLM-feedback control. <!-- MuLan first decomposes a complicated prompt into a sequence of sub-prompts each for one object, and then generates one object per step conditioned on a sub-prompt and previously generated objects, where LLM plans the rough layout of the object and attention guidance provides an accurate mask for it. The VLM-feedback control allows MuLan to correct mistakes in each step by adjusting hyperparameters in (2). -->
+        </h2>
+      </p>
+    <!-- RaR -->
+
+    <h3 class="title is-4">Conditional Single-Object Diffusion</h3>
+    <div class="content has-text-justified">
+      <p>
+        At each stage, MuLan only focuses on generating a single object with attention guidance, conditioned on previously generated objects. To this end, MuLan first utilizes the LLM planner to determine the rough position of the object and the total number of objects in the same position.
+        Then MuLan derives a rough mask for the object based on the rough position, the total number, and the precise mask of the previous object which can be easily computed. The rough mask is in the form of a bounding box, indicating the region in which the object should be generated and positioned.
+      </p>
+      <p>
+        With the rough mask, MuLan adopts <a href="https://arxiv.org/pdf/2304.03373.pdf">backward guidance</a> to manipulate attention maps during denoising steps of diffusion models to ensure the object would be generated and positioned correctly.
+      </p>
+      <p>
+        After each generation stage, a VLM is utilized to evaluate if the generated image aligns with the input prompt. If the generated image violates the input, MuLan can adaptively adjust the diffusion model to re-generate the object.
+      </p>
+      <p>
+        An illustration of the single-object diffusion is shown as follows. For more detailed procedure, please refer to Algorithm 1 in the paper.
+      </p>
+    </div>
+
+    <img src="images/single_object.png" alt="MY ALT TEXT"/>
+      <p>
+        <h2 class="subtitle has-text-centered">
+          Single-object diffusion with LLM planning and attention guidance.
+        </h2>
+      </p>
+    <!-- <br/> -->
+    <!--/ RaR. -->
+
+    <!-- Two-step RaR -->
+    <!-- <h3 class="title is-4">Two-step RaR</h3>
+    <div class="content has-text-justified">
+      <p>
+        To further leverage the quality improvement of the questions rephrased by larger models, 
+        like GPT-4, we introduce a variation of RaR called <b>Two-step RaR</b>. 
+        Intuitively, even among humans, a more detailed and precise question elicits in more accurate and decisive responses. 
+        Two-step RaR follows this intuition by designing a two-step procedure to improve the quality of the questions: 
+        in the first step, given a query <i>question</i>, we generate a self-rephrased query <i>rephrased_question</i> by prompting a 
+        <i>rephrasing LLM</i> with the following prompt:
+      </p>
+      <pre><code>
+        "{question}"
+        Given the above question, rephrase and expand it to help you do better answering. Maintain all information in the original question.
+      </code></pre>
+    </div> -->
+    <!--/ Two-step RaR -->
+
+  </div>
+</div>
+<!--/ Rephrase and Respond (RaR). -->
+
+<!-- Motivating Example. -->
+<!-- <div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <h2 class="title is-3">Motivating Example</h2>
+      <div class="content has-text-justified">
+        <p>
+          Why are we interested in RaR? Let's investigate the following motivating example. 
+          When posed with the query, "Was Mother Teresa born on an even month?"" GPT-4 might mistakenly assert that August is an odd month. 
+          We take a step further to investigate the intrinsic reason for LLM's inefficiency in answering such questions. 
+          As shown in the other three conversations in the figure, when GPT-4 explains its reasoning, 
+          it appears that the model has several ambiguities toward the questions. 
+          For example, it may consider February as odd due to its irregular number of days and sometimes consider an even/odd month 
+          to be months with an even/odd number of days. 
+        </p>
+        <p>
+          In this paper, we highlight an often-overlooked aspect of studies in LLMs: the disparity between human and LLM thought frames. 
+          To tackle this problem, we propose to let the LLM to rephrase the question and incorporate additional details for better answering.
+          Upon rephrasing by the LLM itself, the newly generated question is more detailed and has a clearer question format, 
+          as presented in the figure. This self-rephrasing technique leads to significant improvement in accuracy, 
+          as shown in the barplot. 
+        </p>
+    </div>
+  </div>
+</div> -->
+<!--/ Motivating Example. -->
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/demo_even_month.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Ambiguities exist in the human-crafted questions, resulting in LLMs responding to unintended questions.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/demo_refine.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          GPT-4's rephrased questions can significantly improve its own performance.
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+End image carousel -->
+
+<!-- Results. -->
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <h2 class="title is-3">Results</h2>
+      <div class="content has-text-justified">
+        <p>
+          To evaluate the performance of MuLan, we curate a prompt dataset in which each prompt contains multiple objects with both attribute bindings and spatial relationships.
+          Specifically, the dataset consists of all complex spatial prompts from <a href="https://arxiv.org/pdf/2307.06350.pdf">T2I-CompBench</a> and complex prompts generated by ChatGPT.
+          For comparision, we compare MuLan with controllable generation methods and general state-of-the-art T2I diffusion models.
+        </p>
+        <p>
+          Since the performance of different methods is evaluated by the alignment between the input prompt and the generated image,
+          we adopt both GPT-4V evaluation and human evaluation to comprehensively investigate the alignment.
+          Each prompt-image pair is evaluated from three aspects, the objectness completeness, the correctness of attribute bindings, and the correctness of spatial relationships.
+        </p>
+    </div>
+    <img src="images/tab_results.png" alt="MY ALT TEXT"/>
+    <p>
+      <h2 class="subtitle has-text-centered">
+        GPT-4V / human evaluation of images generated by different methods.
+      </h2>
+    </p>
+  </div>
+</div>
+<!--/ Results. -->
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/tasks.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Overview of the tasks we evaluated on. The table includes tasks we used in later sections.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/tasks_res.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Accuracy (%) comparison of different prompts using GPT-4. Both One-step RaR and Two-step RaR
+          effectively improve the accuracy of GPT-4 across 10 tasks.
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+<!-- Results. -->
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <h2 class="title is-4">Ablation on the VLM feedback control</h2>
+      <div class="content has-text-justified">
+        <p>
+          To investigate the importance and effect of the VLM feedback control, we conduct extensive ablation study. First, we evaluate the performance of MuLan by removing the feedback control. Then we also test the compatibility of MuLan with different VLMs.
+          The results are shown as follows.
+        </p>
+    </div>
+    <img src="images/tab_ablation.png" alt="MY ALT TEXT"/>
+    <p>
+      <h2 class="subtitle has-text-centered">
+        The left table shows the VLM feedback is a key component in MuLan; the right table shows that MuLan has good compatibility and could maintain good performance with different VLMs.
+      </h2>
+    </p>
+  </div>
+</div>
+<!--/ Results. -->
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/models.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Accuracy (%) of GPT-4-0613, GPT-3.5-turbo-0613 and Vicuna-13b when testing on original and self-rephrased questions using Two-step RaR.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/models_exp.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Examples of the self-rephrased questions generated by different LLM models.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/models_table.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Comparison of GPT-4's rephrased questions with Vicuna's self-rephrased questions.
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+<!-- Results. -->
+<div class="columns is-centered">
+  <div class="column is-three-fifths">
+    <h2 class="title is-3">More Visualization Results</h2>
+      <div class="content has-text-justified">
+        <p>
+          More visualization results of different methods. 
+        </p>
+    </div>
+  </div>
+</div>
+<!--/ Results. -->
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/math.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Demonstration of our mathematical formulation of CoT and RaR.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/question_quality.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Demonstration of the importance of question quality as compared to reasoning in the coin flip question.
+        </h2>
+      </div>
+      <div class="item"> -->
+        <!-- Your image here -->
+        <!-- <img src="images/few_shot.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          A badly crafted QA example, as shown in red, result in the LLM following the provided logic but reaching an arbitrary answer. 
+          Meanwhile, our prompt can successfully correct the pitfalls in the few-shot examples and improve the robustness and efficacy of few-shot CoT.
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
+
+
+
+<img src="images/qualitative1.png" alt="MY ALT TEXT"/>
+  <h2 class="subtitle has-text-centered">
+  </h2>
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{li204mulan,
+        title={MuLan: Multimodal-LLM Agent for Progressive Multi-Object Diffusion},
+        author={Sen Li and Ruochen Wang and Cho-jui Hsieh and Minhao Cheng and Tianyi Zhou},
+        year={2024},
+        eprint={???},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+      }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <!-- <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p> -->
+          <h5>[ARC] Main Contribution (* Equal)</h5>
+
+          <ul>
+              <li><strong>Idea:</strong></li>
+              <li><strong>Exp:</strong></li>
+              <li><strong>Paper:</strong></li>
+              <li><strong>Advising:</strong></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
